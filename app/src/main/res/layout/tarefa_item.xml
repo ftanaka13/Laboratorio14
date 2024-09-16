@@ -46,7 +46,7 @@
                 tools:text="Titulo"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toTopOf="@+id/textViewDescricao"
-                app:layout_constraintEnd_toStartOf="@+id/imageView"
+                app:layout_constraintEnd_toStartOf="@+id/checkbox"
                 app:layout_constraintStart_toEndOf="@+id/textViewPrioridade"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_chainStyle="packed" />
@@ -64,7 +64,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/textViewTitulo" />
 
             <CheckBox
-                android:id="@+id/imageView"
+                android:id="@+id/checkbox"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:checked="@{tarefa.concluido}"
